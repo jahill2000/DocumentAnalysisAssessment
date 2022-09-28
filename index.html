@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <head>
+        <title>Document Analysis</title>
+        <link href="styles.css" rel="stylesheet">
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <form id="analysis">
+            <label>Calculation Method:</label><br>
+            <input type="radio" id="sentence" name="calculation" value="sentence" checked>
+            <label for="sentence">Sentence Level</label><br>
+            <input type="radio" id="paragraph" name="calculation" value="paragraph">
+            <label for="paragraph">Paragraph Level</label><br>
+            <br>
+
+            <label for="letter">Letter to Count:</label><br>
+            <input type="text" id="letter" name="letter" pattern="[A-Za-z]{1,1}"><br>
+            <br>
+
+            <label for="document-text">Text:</label><br>
+            <textarea id="document-text" name="document-text" rows="8" cols="50"></textarea><br>
+            <br>
+
+            <div class="button-container">
+                <input type="button" value="Analyse" onclick="check()">
+            </div>
+            <br>
+
+            <p id="output"></p>
+        </form>
+    </body>
+</html>

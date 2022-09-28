@@ -1,0 +1,48 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(0, 255, 234), rgb(0, 128, 255));
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
+    width: 500px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+textarea, input[type=text] {
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input[type=text] {
+    width: 30px;
+}
+
+input[type=button] {
+    border: none;
+    background-color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+input[type=button]:hover {
+    cursor: pointer;
+}
+
+.button-container {
+    text-align: center;
+}
